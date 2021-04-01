@@ -6,8 +6,8 @@
 
 ## Usage
 
-```
-import summarize from summarizard
+```python
+from summarizard import summarize
 
 [summary, tags, original_text] = summarize("My long article")
 ```
@@ -16,4 +16,11 @@ import summarize from summarizard
 
 ```shell
 make
+```
+
+or
+
+```shell
+pip install -U pip setuptools wheel
+pip install -r requirements.txt
 ```
